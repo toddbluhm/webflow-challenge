@@ -1,0 +1,19 @@
+{
+  "name": "webflow-challenge",
+  "version": "1.0.0",
+  "description": "Crawls a url and gets all the font families used on the page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard --fix"
+  },
+  "author": "Todd Bluhm",
+  "license": "MIT",
+  "dependencies": {
+    "css-font-parser": "^0.2.1",
+    "express": "^4.14.0",
+    "get-css": "^1.2.1",
+    "url-parse": "^1.1.7"
+  }
+}
